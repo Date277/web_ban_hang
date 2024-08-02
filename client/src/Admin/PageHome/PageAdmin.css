@@ -1,0 +1,134 @@
+.container2 {
+    display: flex;
+    height: 720px;
+}
+
+.logo-face {
+    font-size: 45px;
+}
+
+.featare {
+    width: 400px;
+    height: auto;
+    border: 1px ridge;
+    border-right: none;
+    padding: 5px;
+    background-color: #828282;
+    padding-top: 50px;
+}
+
+.featare p {
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    font-weight: 18px;
+    color: black;
+}
+
+.featare p i {
+    margin-right: 10px;
+    color: black;
+}
+
+.display-group {
+    /* border: 1px solid rgb(146, 144, 144); */
+    width: 100%;
+}
+
+.headerr {
+    height: 100px;
+    border: 1px ridge ;
+    display: flex;
+    justify-content: center;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 10px;
+}
+
+.display {
+    padding: 0 40px;
+}
+.logout{
+    width: 116%;
+    height: 69%;
+    margin: 0 6%;
+    border-radius: 100px;
+    background-color: #e4002b !important;
+    
+}
+.avt{
+    size:100px;
+    display: flex;
+    margin-top: 8px;
+}
+.avt i{
+    margin-top: 4px;
+    
+}
+.avt1 {
+    display: flex;
+}
+.icon-avt{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* .kfc{
+    width: 60%;
+    display: flex;
+} */
+/* .admin-image-container {
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 20px px;
+    text-align: center;
+    line-height: 290px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.admin-image-container:hover {
+    opacity: 1;
+}
+
+.griditem {
+    background-size: cover;
+    background-position: center;
+    padding: 2vw;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.griditem .delete-btn {
+    display: none;
+}
+
+.griditem:hover .delete-btn {
+    cursor: pointer;
+    display: block;
+}
+
+.grid-container {
+    border: solid 1px #eeeeee;
+    padding: 0.5vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 24.5vw;
+    grid-gap: 0.6vw;
+} */

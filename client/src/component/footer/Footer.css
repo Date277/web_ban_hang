@@ -1,0 +1,147 @@
+.tong {
+    background: #202124;
+    color: #ababab;
+}
+
+.footer {
+
+
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    padding: 5%;
+    padding: 4%;
+    font-size: 13px;
+}
+
+.footer h6 {
+    color: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.footer1 {
+    text-align: left;
+}
+
+.footer1 img {
+    width: 136px;
+    height: 42px;
+    display: inline-block;
+    border: 1px solid #4f4e4e;
+    border-radius: 6px;
+}
+
+.copyright {
+    position: relative;
+    padding: 2%;
+}
+
+.copyright .card1 {
+    position: absolute;
+    right: 12%;
+    bottom: 30%;
+}
+.copyright p{
+    margin-left: 43%;
+}
+/*  */
+
+.card1 {
+    background-color: #202124;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: none;
+
+}
+
+/* for all social containers*/
+.socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+    border-radius: 50%;
+}
+
+/* instagram*/
+.containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+}
+
+/* twitter*/
+.containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+}
+
+/* linkdin*/
+.containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+}
+
+/* Whatsapp*/
+.containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+.socialSvg {
+    width: 17px;
+}
+
+.socialSvg path {
+    fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+/* reponsive */
+/* Mobile */
+@media(min-width: 375px) and (max-width: 812px) {
+    .footer {
+        display: block;
+    }
+
+    .footer h6 {
+        padding: 10px
+    }
+
+    .footer1 p {
+        display: none;
+    }
+
+    .copyright .card1 {
+        margin-bottom: -4%;
+    }
+
+}

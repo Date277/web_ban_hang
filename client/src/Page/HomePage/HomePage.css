@@ -1,0 +1,10 @@
+/* .carousel{
+    margin-top: 7%;
+} */
+/* reponsive */
+/* Mobile */
+@media(min-width: 375px) and (max-width: 812px) {
+    .carousel img {
+        height: 200px
+    }
+}

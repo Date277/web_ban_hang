@@ -1,0 +1,131 @@
+.img-login1 {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 7%; */
+    margin: 0 10%;
+    height: auto;
+}
+.btn-login{
+    margin: 3% 0;
+}
+.img-login img {
+    width: 100%;
+    max-width: 620px;
+    height: auto;
+}
+
+.form-login {
+    margin: 2% 3%;
+    width: 48%;
+}
+
+.form-login h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+}
+
+.form-login label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-right: 100%
+}
+
+.form-login .mb-3 {
+    margin-bottom: 20px;
+}
+
+.form-login input[type="email"],
+.form-login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form-login button {
+    width: 100%;
+    background: #28a745;
+    border-color: #28a745;
+    border-radius: 50px;
+    height: 50px;
+    font-weight: 700;
+}
+
+.form-login .submit-btn {
+    width: 100%;
+}
+
+
+/*  */
+.btn-h4{
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+.buttonn {
+    margin-bottom: 10px;
+    margin-top: 1%;
+}
+
+.buttonn h4 b{
+    margin-right: 60%;
+}
+
+.buttonn .btn-8 {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #3b5998 !important;
+    border-color: #3b5998 !important;
+
+    font-weight: 700;
+}
+
+.buttonn .btn-9 {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #000;
+    border-color: #000;
+    margin-top: 3%;
+    font-weight: 700;
+}
+
+.buttonn .btn-10 {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    margin-top: 3%;
+    font-weight: 700;
+}
+
+.buttonn p {
+    padding: 2%;
+}
+.add {
+    display: flex;
+    justify-content: center;
+}
+/* reponsive */
+/* Mobile */
+@media(min-width: 375px) and (max-width: 812px) {
+    .img-login {
+        flex-direction: column-reverse;
+
+    }
+
+    .form-login {
+        width: 100%;
+        padding: 20px;
+        margin-left: 0;
+    }
+
+    .buttonn h5 {
+        margin-right: 0%;
+        margin-top: 10%;
+
+    }
+}

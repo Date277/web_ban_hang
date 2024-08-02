@@ -1,0 +1,128 @@
+.detail {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 8%;
+    margin-top: 1%;
+}
+
+.detail-image img {
+    height: 100%;
+}
+
+.combo {
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    padding: 3%;
+    text-align: left;
+    height: 50%;
+    margin-top: 3%;
+}
+
+.combo ul {
+    list-style: none;
+    margin-left: -8%;
+}
+
+.combo h1 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 38px;
+    font-weight: 700;
+    margin-bottom: 1.4285714286rem;
+}
+
+.combo h4 {
+    font-size: 1.5714285714rem;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.4285714286rem;
+}
+
+.combo p {
+    color: #78838c;
+
+}
+.input-number{
+    display: flex;
+}
+
+.input-number .btnbuy {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    margin-top: 5%;
+}
+.input-number .btnbut{
+    width: 30px;
+    height: 30px;
+    border: 2px ridge;
+    border-radius: 50%;
+    margin: 2px 0;
+}
+
+.cart2 {
+    width: 25%;
+    padding: 30px 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+.payment-item{
+    display: flex;
+    margin: 28px 0;
+}
+.payment-item input{
+    width: 35px;
+    height: 35px;
+    background: none;
+    padding: 0 11px;
+    margin-bottom: 2px;
+    border: 1px ridge;
+    border-radius: 15px;
+}
+
+
+/* reponsive */
+/* Mobile */
+@media(min-width: 375px) and (max-width: 812px) {
+    .detail {
+        display: block;
+    }
+
+    .detail-image img {
+        width: 77%;
+    }
+
+    .combo {
+        width: 95%;
+        margin-bottom: 15%;
+        margin-top: 5%;
+        margin-left: 2.5%;
+    }
+
+    .combo h1 {
+        font-size: 20px;
+        margin-bottom: 1%;
+    }
+
+    .input-number {
+        display: flex;
+        align-items: center;
+        margin-top: -2%;
+    }
+
+    .defa {
+        height: 33%;
+    }
+}
